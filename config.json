@@ -1,0 +1,25 @@
+{
+  "data_directory": "models",
+  "model_file": "5bus_New.xlsx",
+  "demand_directory": "Demand Traces Hourly Resolution",
+  "solar_directory": "Solar Traces Hourly Resolution",
+  "wind_directory": "Wind Traces Hourly Resolution",
+  "trace": {
+    "year": 2023,
+    "month": 7,
+    "day": 1
+  },
+  "planning": {
+    "horizon_days": 5,
+    "rolling_horizon_days": 3,
+    "overlap_days": 1,
+    "voll": 18600,
+    "curtailment_penalty": 500
+  },
+  "network_model": "Copper Plate",
+  "loss_factor": 0.1,
+  "reserve_margin": 0.1,
+  "solver_name": "Gurobi",
+  "mipgap": 0.01,
+  "plot_horizon_days": 3
+}
